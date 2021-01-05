@@ -36,8 +36,9 @@ h2{
 }
 
 .form-control{
+    position: relative;
     margin-bottom: 10px;
-    padding-bottom: 10px ;
+    padding-bottom: 20px ;
 }
 
 .form-control label{
@@ -71,8 +72,13 @@ h2{
     visibility: hidden;
     color: var(--error-color);
     position: absolute;
+    bottom: 0;
     left: 0;
-    right: 0;
+}
+
+.form-control.error small{
+    visibility: visible;
+  
 }
 
 .form button{
